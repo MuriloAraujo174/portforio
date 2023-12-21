@@ -93,8 +93,8 @@
     }
 
     .title-projects {
-        font-size: 30px;
-        padding-top: 60px;
+        font-size: 25px;
+        padding-top: 50px;
     }
 
     .paragrafo-sobre-projects {
@@ -104,7 +104,7 @@
     #container3 {
         width: 600px;
         height: 600px;
-        padding-top: 30px;
+        padding-top: 20px;
     }
 
     .cont-itens {
