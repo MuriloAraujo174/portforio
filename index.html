@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media-query.css">
+    <title>Portforio</title>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <div>
+            <h2 id="logo">Antonio Murilo</h2>
+        </div>
+        <div id="menu-resposivo">
+            <span id="menu" onclick="clickMenu()" class="material-symbols-outlined">
+                menu
+            </span>
+            <div id="itens">
+                <ul>
+                    <li class="barra-bottom">
+                        <a href="#page1-scroll1">Home</a>
+                    </li>
+                    <li class="barra-bottom">
+                        <a href="#page2-scroll2">Technologies</a>
+                    </li>
+                    <li class="barra-bottom">
+                        <a href="#page3-scroll3">Projects</a>
+                    </li>
+                    <ul>
+                        <li class="social-icon">
+                            <a href="https://github.com/MuriloAraujo174" target="_blank">
+                                <img src="./assets/icon-github.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="social-icon">
+                            <a href="https://www.linkedin.com/in/ant%C3%B4nio-murilo-4bb166248/" target="_blank">
+                                <img src="./assets/icon-linkedin.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="page1-scroll1" class="page1">
+            <div id="container1">
+                <p id="title-h1" class="paragrafo efeito-txt-topo">
+                    Olá, min chamo antonio murilo
+                    moro SP, 
+                    sou desenvolvedor front-end, junior
+                </p>
+
+                <img class="avatar efeito-img-topo" src="./assets/icon-avatar.svg" alt="Foto de Antonio Murilo">
+            </div>
+        </section>
+        <section id="page2-scroll2" class="page2">
+            <div class="container2">
+                <h2 class="minha-tec">My Tech Stack</h2>
+                <p class="paragrafo-sobre-tec">
+                    Technologies i've been warking with recently
+                </p>
+
+                <div class="container-tecnologias">
+                    <div>
+                        <img class="icon-tec" src="./assets/icon-html.svg" alt="">
+                        <img class="icon-tec" src="./assets/icon-bootstrap.svg" alt="">
+                    </div>
+
+                    <div>
+                        <img class="icon-tec" src="./assets/icon-css.svg" alt="">
+                        <img class="icon-tec" src="./assets/icon-github-fill.svg" alt="">
+                    </div>
+
+                    <div>
+                        <img class="icon-tec" src="./assets/icon-javascript.svg" alt="">
+                        <img class="icon-tec" src="./assets/icon-rect.svg" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="page3-scroll3" class="page3">
+
+            <h2 class="title-projects">Projetos</h2>
+            <p class="paragrafo-sobre-projects">
+                Things I've built so  for
+            </p>
+
+            <div id="container3">
+                <div class="projetos1">
+                    <div class="cont-itens">
+                        <div class="cont-img-capa">
+
+                        </div>
+                        <h3 class="text-title-card">
+                            Tabela de preços
+                        </h3>
+                        <p class="text-font">
+                            Esse é um projeto que contem preços de assinaturas que os crientes podem assinar
+                        </p>
+                        <p class="tecnologias-usadas">
+                            Tech: HTML CSS
+                        </p>
+                        <ul class="list-itens-sites">
+                            <li class="list-inline-bloc icon-live-preview">
+                                <a href="https://muriloaraujo174.github.io/tabela-de-precos/" target="_blank">Live Preview</a>
+                            </li>
+                            <li class="list-inline-bloc icon-live-code">
+                                <a href="https://github.com/MuriloAraujo174/tabela-de-precos" target="_blank">view Code</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cont-itens">
+                        <div class="cont-img-capa2">
+
+                        </div>
+                        <h3 class="text-title-card">
+                            Nutrição
+                        </h3>
+                        <p class="text-font">
+                            Éssa é uma pagina de nurtição que contem informação nurticonal 
+                        </p>
+                        <p class="tecnologias-usadas">
+                            Tech: HTML CSS
+                        </p>
+                        <ul class="list-itens-sites list-padd-resp">
+                            <li class="list-inline-bloc icon-live-preview">
+                                <a href="https://muriloaraujo174.github.io/nutricao/" target="_blank">Live Preview</a>
+                            </li>
+                            <li class="list-inline-bloc icon-live-code">
+                                <a href="https://github.com/MuriloAraujo174/nutricao" target="_blank">view Code</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="projetos2">
+                    <div class="cont-itens">
+                        <div class="cont-img-capa3">
+
+                        </div>
+                        <h3 class="text-title-card">
+                            Login
+                        </h3>
+                        <p class="text-font">
+                            É uma pagina de login 
+                        </p>
+                        <p class="tecnologias-usadas">
+                            Tech: HTML CSS
+                        </p>
+                        <ul class="list-itens-sites list-padd-resp2">
+                            <li class="list-inline-bloc icon-live-preview">
+                                <a href="https://muriloaraujo174.github.io/Login/" target="_blank">Live Preview</a>
+                            </li>
+                            <li class="list-inline-bloc icon-live-code">
+                                <a href="https://github.com/MuriloAraujo174/Login" target="_blank">view Code</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cont-itens">
+                        <div class="cont-img-capa4">
+
+                        </div>
+                        <h3 class="text-title-card">
+                            Restaurante
+                        </h3>
+                        <p class="text-font">
+                            Ésse é um cardapio para restaurante que funciona co QRCoode 
+                        </p>
+                        <p class="tecnologias-usadas">
+                            Tech: HTML CSS
+                        </p>
+                        <ul class="list-itens-sites list-padd-resp3">
+                            <li class="list-inline-bloc icon-live-preview">
+                                <a href="https://muriloaraujo174.github.io/Cardapio/" target="_blank">Live Preview</a>
+                            </li>
+                            <li class="list-inline-bloc icon-live-code">
+                                <a href="https://github.com/MuriloAraujo174/Cardapio" target="_blank">view Code</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="projetos3">
+                    <div class="cont-itens">
+                        <div class="cont-img-capa5">
+
+                        </div>
+                        <h3 class="text-title-card">
+                            pagina de chat
+                        </h3>
+                        <p class="text-font">
+                            É uma pagina clone do whatsapp que por enquanto não funciona 
+                        </p>
+                        <p class="tecnologias-usadas">
+                            Tech: HTML CSS
+                        </p>
+                        <ul class="list-itens-sites list-padd-resp4">
+                            <li class="list-inline-bloc icon-live-preview">
+                                <a href="https://github.com/MuriloAraujo174/pagina-de-chat" target="_blank">Live Preview</a>
+                            </li>
+                            <li class="list-inline-bloc icon-live-code">
+                                <a href="https://muriloaraujo174.github.io/pagina-de-chat/" target="_blank">view Code</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cont-itens">
+                        <div class="cont-img-capa6">
+
+                        </div>
+                        <h3 class="text-title-card">
+                            meus jogos 
+                        </h3>
+                        <p class="text-font">
+                            É uma pagina com jogos é strems que eu gosto 
+                        </p>
+                        <p class="tecnologias-usadas">
+                            Tech: HTML CSS
+                        </p>
+                        <ul class="list-itens-sites list-padd-resp5">
+                            <li class="list-inline-bloc icon-live-preview">
+                                <a href="https://muriloaraujo174.github.io/streames-e-jogos-que-curto/" target="_blank">Live Preview</a>
+                            </li>
+                            <li class="list-inline-bloc icon-live-code">
+                                <a href="https://github.com/MuriloAraujo174/streames-e-jogos-que-curto" target="_blank">view Code</a>
+                            </li>
+                        </ul>
+                    </div>                    
+                </div>
+            </div>
+        </section>
+    </main>
+        
+    <script src="./script/script.js" defer></script>
+</body>
+</html>

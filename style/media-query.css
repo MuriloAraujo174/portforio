@@ -1,0 +1,730 @@
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    #logo {
+        width: 160px;
+        text-align: left;
+        padding: 10px 20px;
+        padding-right: 0;
+        font-size: 16px;
+    }
+
+    #logo:hover {
+        text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.351);
+    }
+
+    span {
+        position: relative;
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+    
+    #itens {
+        background-color: transparent;
+        position: absolute;
+        top: 4px;
+        left: unset;
+        right: 30px;
+        display: inline-block;
+        z-index: 2;
+    }
+
+    ul li {
+        display: inline-block;
+        list-style: none;
+        border: none;
+    }
+
+    .barra-bottom:hover {
+        padding-bottom: 2px;
+        border-bottom: 2px solid rgb(0, 255, 234);
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .social-icon {
+        display: none;   
+    }
+
+    #container1 {
+        width: 500px;
+    }
+
+    .paragrafo {
+        font-size: 24px;
+        width: 350px;
+    }
+
+    .avatar {
+        width: 140px;
+    }
+
+    .container2 {
+        width: 500px;
+    }
+
+    .paragrafo-sobre-tec {
+        text-align: center;
+    }
+
+    .container-tecnologias {
+        width: 300px;
+        margin: auto;
+        margin-top: 40px;
+        gap: 20px;
+    }
+
+    .minha-tec {
+        font-size: 32px;
+    }
+
+    .paragrafo-sobre-tec {
+        font-size: 24px;
+    }
+
+    .icon-tec {
+        width: 70px;
+        height: 70px;
+    }
+
+    .title-projects {
+        font-size: 30px;
+        padding-top: 60px;
+    }
+
+    .paragrafo-sobre-projects {
+        font-size: 16px;
+    }
+
+    #container3 {
+        width: 600px;
+        height: 600px;
+        padding-top: 30px;
+    }
+
+    .cont-itens {
+        position: relative;
+        width: 150px;
+        height: 200px;
+    }
+
+    .cont-img-capa {
+        width: 147px;
+    }
+
+    .text-title-card {
+        font-size: 16px;
+    }
+
+    .text-font {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+    .tecnologias-usadas {
+        position: absolute;
+        left: 50%;
+        bottom: 30px;
+        transform: translate(-50px);
+        font-size: 9px;
+    }
+
+    a {
+        font-size: 10px;
+    }
+
+    .icon-live-preview {
+        position: absolute;
+        left: 3px;
+        bottom: 8px;
+    }
+
+    .icon-live-code {
+        position: absolute;
+        right: 3px;
+        bottom: 8px;
+    }
+
+    .icon-live-preview::before {
+        content: url("../assets/icon-github-fill-dark.svg");
+        width: 18px;
+    }
+
+    .icon-live-code::before {
+        content: url(../assets/icon-link-dark.svg);
+        position: absolute;
+        bottom: 0;
+        left: -10px;
+    }
+
+    .cont-img-capa2 {
+        width: 147px;
+    }
+    
+    .cont-img-capa3 {
+        width: 147px;
+    }
+    
+    .cont-img-capa4 {
+        width: 147px;
+    }
+    
+    .cont-img-capa5 {
+        width: 147px;
+    }
+    
+    .cont-img-capa6 {
+        width: 147px;
+    }
+}
+
+@media screen and (min-width:  768px) and (max-width: 992px) {
+    #logo {
+        width: 160px;
+        text-align: left;
+        padding: 10px 20px;
+        padding-right: 0;
+        font-size: 16px;
+    }
+
+    #logo:hover {
+        text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.351);
+    }
+
+    span {
+        position: relative;
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+    
+    #itens {
+        background-color: transparent;
+        position: absolute;
+        top: 4px;
+        left: unset;
+        right: 30px;
+        display: inline-block;
+        z-index: 2;
+    }
+
+    ul li {
+        display: inline-block;
+        list-style: none;
+        border: none;
+    }
+
+    .barra-bottom:hover {
+        padding-bottom: 2px;
+        border-bottom: 2px solid rgb(0, 255, 234);
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .social-icon {
+        display: none;   
+    }
+
+    #container1 {
+        width: 650px;
+    }
+
+    .paragrafo {
+        font-size: 32px;
+        width: 450px;
+    }
+
+    .avatar {
+        width: 140px;
+    }
+
+    .container2 {
+        width: 500px;
+    }
+
+    .paragrafo-sobre-tec {
+        text-align: center;
+    }
+
+    .container-tecnologias {
+        width: 500px;
+        margin: auto;
+        margin-top: 40px;
+        gap: 40px;
+    }
+
+    .minha-tec {
+        font-size: 24px;
+    }
+
+    .paragrafo-sobre-tec {
+        font-size: 16px;
+    }
+
+    .icon-tec {
+        width: 90px;
+        height: 90px;
+    }
+
+    #container3 {
+        width: 600px;
+        height: 600px;
+    }
+
+    .cont-itens {
+        position: relative;
+        width: 150px;
+        height: 200px;
+    }
+
+    .cont-img-capa {
+        width: 147px;
+    }
+
+    .text-title-card {
+        font-size: 16px;
+    }
+
+    .text-font {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+    .tecnologias-usadas {
+        position: absolute;
+        left: 50%;
+        bottom: 25px;
+        transform: translate(-50%);
+        text-align: center;
+        font-size: 9px;
+        padding-top: 7px;
+    }
+
+    a {
+        font-size: 10px;
+    }
+
+    .icon-live-preview {
+        position: absolute;
+        left: 3px;
+        bottom: 8px;
+    }
+
+    .icon-live-code {
+        position: absolute;
+        right: 3px;
+        bottom: 8px;
+    }
+
+    .icon-live-preview::before {
+        content: url("../assets/icon-github-fill-dark.svg");
+        width: 18px;
+    }
+
+    .icon-live-code::before {
+        content: url(../assets/icon-link-dark.svg);
+        position: absolute;
+        bottom: 0;
+        left: -10px;
+    }
+
+    .cont-img-capa2 {
+        width: 147px;
+    }
+    
+    .cont-img-capa3 {
+        width: 147px;
+    }
+    
+    .cont-img-capa4 {
+        width: 147px;
+    }
+    
+    .cont-img-capa5 {
+        width: 147px;
+    }
+    
+    .cont-img-capa6 {
+        width: 147px;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    #logo {
+        width: 160px;
+        text-align: left;
+        padding: 10px 20px;
+        padding-right: 0;
+        font-size: 16px;
+    }
+
+    #logo:hover {
+        text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.351);
+    }
+
+    span {
+        position: relative;
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+    
+    #itens {
+        background-color: transparent;
+        position: absolute;
+        top: 4px;
+        left: unset;
+        right: 30px;
+        display: inline-block;
+        z-index: 2;
+    }
+
+    ul li {
+        display: inline-block;
+        list-style: none;
+        border: none;
+    }
+
+    .barra-bottom:hover {
+        padding-bottom: 2px;
+        border-bottom: 2px solid rgb(0, 255, 234);
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .social-icon {
+        display: none;   
+    }
+
+    #container1 {
+        width: 700px;
+    }
+
+    .paragrafo {
+        font-size: 32px;
+        width: 450px;
+    }
+
+    .avatar {
+        width: 140px;
+    }
+
+    .container2 {
+        width: 500px;
+    }
+
+    .paragrafo-sobre-tec {
+        text-align: center;
+    }
+
+    .container-tecnologias {
+        width: 500px;
+        margin: auto;
+        margin-top: 40px;
+        gap: 40px;
+    }
+
+    .minha-tec {
+        font-size: 24px;
+    }
+
+    .paragrafo-sobre-tec {
+        font-size: 16px;
+    }
+
+    .icon-tec {
+        width: 90px;
+        height: 90px;
+    }
+
+    #container3 {
+        width: 800px;
+        height: 600px;
+    }
+
+    .cont-itens {
+        position: relative;
+        width: 200px;
+        height: 250px;
+    }
+
+    .cont-img-capa {
+        width: 197px;
+        height: 100px;
+    }
+
+    .text-title-card {
+        font-size: 18px;
+    }
+
+    .text-font {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+    .tecnologias-usadas {
+        position: absolute;
+        left: 50%;
+        bottom: 30px;
+        transform: translate(-60%);
+        text-align: center;
+        font-size: 12px;
+        padding-top: 7px;
+
+    }
+
+    a {
+        font-size: 12px;
+    }
+
+    .icon-live-preview {
+        position: absolute;
+        left: 10px;
+        bottom: 8px;
+    }
+
+    .icon-live-code {
+        position: absolute;
+        right: 10px;
+        bottom: 8px;
+    }
+
+    .icon-live-preview::before {
+        content: url("../assets/icon-github-fill-dark.svg");
+    }
+
+    .icon-live-code::before {
+        content: url(../assets/icon-link-dark.svg);
+        position: absolute;
+        bottom: 0;
+        left: -10px;
+    }
+
+    .cont-img-capa2 {
+        width: 197px;
+        height: 100px;
+    }
+    
+    .cont-img-capa3 {
+        width: 197px;
+        height: 100px;
+    }
+    
+    .cont-img-capa4 {
+        width: 197px;
+        height: 100px;
+    }
+    
+    .cont-img-capa5 {
+        width: 197px;
+        height: 100px;
+    }
+    
+    .cont-img-capa6 {
+        width: 197px;
+        height: 100px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    #logo {
+        width: 160px;
+        text-align: left;
+        padding: 10px 20px;
+        padding-right: 0;
+        font-size: 16px;
+    }
+
+    #logo:hover {
+        text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.351);
+    }
+
+    span {
+        position: relative;
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+    
+    #itens {
+        background-color: transparent;
+        position: absolute;
+        top: 4px;
+        left: unset;
+        right: 30px;
+        display: inline-block;
+        z-index: 2;
+    }
+
+    ul li {
+        display: inline-block;
+        list-style: none;
+        border: none;
+    }
+
+    .barra-bottom:hover {
+        padding-bottom: 2px;
+        border-bottom: 2px solid rgb(0, 255, 234);
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .social-icon {
+        display: none;   
+    }
+
+    #container1 {
+        width: 700px;
+    }
+
+    .paragrafo {
+        font-size: 32px;
+        width: 450px;
+    }
+
+    .avatar {
+        width: 140px;
+    }
+
+    .container2 {
+        width: 500px;
+    }
+
+    .paragrafo-sobre-tec {
+        text-align: center;
+    }
+
+    .container-tecnologias {
+        width: 500px;
+        margin: auto;
+        margin-top: 40px;
+        gap: 40px;
+    }
+
+    .minha-tec {
+        font-size: 24px;
+    }
+
+    .paragrafo-sobre-tec {
+        font-size: 16px;
+    }
+
+    .icon-tec {
+        width: 90px;
+        height: 90px;
+    }
+
+    #container3 {
+        width: 800px;
+        height: 600px;
+    }
+
+    .cont-itens {
+        position: relative;
+        width: 200px;
+        height: 250px;
+    }
+
+    .cont-img-capa {
+        width: 197px;
+        height: 100px;
+    }
+
+    .text-title-card {
+        font-size: 18px;
+    }
+
+    .text-font {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+    .tecnologias-usadas {
+        position: absolute;
+        left: 50%;
+        bottom: 30px;
+        transform: translate(-60%);
+        text-align: center;
+        font-size: 12px;
+        padding-top: 7px;
+
+    }
+
+    a {
+        font-size: 12px;
+    }
+
+    .icon-live-preview {
+        position: absolute;
+        left: 10px;
+        bottom: 8px;
+    }
+
+    .icon-live-code {
+        position: absolute;
+        right: 10px;
+        bottom: 8px;
+    }
+
+    .icon-live-preview::before {
+        content: url("../assets/icon-github-fill-dark.svg");
+    }
+
+    .icon-live-code::before {
+        content: url(../assets/icon-link-dark.svg);
+        position: absolute;
+        bottom: 0;
+        left: -10px;
+    }
+
+    .cont-img-capa2 {
+        width: 197px;
+        height: 100px;
+    }
+    
+    .cont-img-capa3 {
+        width: 197px;
+        height: 100px;
+    }
+    
+    .cont-img-capa4 {
+        width: 197px;
+        height: 100px;
+    }
+    
+    .cont-img-capa5 {
+        width: 197px;
+        height: 100px;
+    }
+    
+    .cont-img-capa6 {
+        width: 197px;
+        height: 100px;
+    }
+
+}
