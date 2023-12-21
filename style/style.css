@@ -71,6 +71,11 @@ section {
 
 .page1 {
     background-color: #171717ee;
+    background-image: url("../img/fundo-madeira.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #container1 {
@@ -104,6 +109,11 @@ section {
 .page2 {
     background-color: #171717ee;
     color: white;
+    background-image: url(../img/back-tablet.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .container2 {
@@ -114,12 +124,16 @@ section {
 
 .minha-tec {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.433);
 }
 
 .paragrafo-sobre-tec {
     font-size: 12px;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.433);
 }
 
 .container-tecnologias {
@@ -139,6 +153,11 @@ section {
 
 .page3 {
     background-color: #171717ee;
+    background-image: url(../img/back-pc.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #container3 {
@@ -169,6 +188,7 @@ section {
 .cont-itens {
     width: 98px;
     height: 150px;
+    background-color: rgba(0, 0, 0, 0.889);
     border: 2px solid white;
     border-radius: 4px;
     margin-top: 10px;
