@@ -44,6 +44,14 @@ ul li {
     border: none;
 }
 
+.barra-bottom {
+    transform: .3;
+}
+
+.barra-bottom:hover {
+    transform: scale(1.1);
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -149,6 +157,11 @@ section {
     width: 40px;
     height: 40px;
     margin-top: 20px;
+    transform: .3;
+}
+
+.icon-tec:hover {
+    transform: scale(1.1);
 }
 
 .page3 {
@@ -192,6 +205,12 @@ section {
     border: 2px solid white;
     border-radius: 4px;
     margin-top: 10px;
+    transform: .3;
+}
+
+.cont-itens:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.393);
 }
 
 .cont-img-capa {
@@ -329,3 +348,4 @@ section {
         opacity: 1;
     }
 }
+
