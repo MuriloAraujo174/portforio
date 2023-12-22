@@ -44,14 +44,6 @@ ul li {
     border: none;
 }
 
-.barra-bottom {
-    transform: .3;
-}
-
-.barra-bottom:hover {
-    transform: scale(1.1);
-}
-
 a {
     text-decoration: none;
     color: white;
