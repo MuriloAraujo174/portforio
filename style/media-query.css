@@ -41,6 +41,14 @@
         border-bottom: 2px solid rgb(0, 255, 234);
     }
 
+    .barra-bottom {
+        transform: .3;
+    }
+    
+    .barra-bottom:hover {
+        transform: scale(1.1);
+    }
+
     a {
         text-decoration: none;
         color: white;
@@ -215,6 +223,10 @@
         z-index: 2;
     }
 
+    .barra-bottom {
+        transform: .3;
+    }
+
     ul li {
         display: inline-block;
         list-style: none;
@@ -224,6 +236,7 @@
     .barra-bottom:hover {
         padding-bottom: 2px;
         border-bottom: 2px solid rgb(0, 255, 234);
+        transform: scale(1.1);
     }
 
     a {
@@ -402,6 +415,11 @@
     .barra-bottom:hover {
         padding-bottom: 2px;
         border-bottom: 2px solid rgb(0, 255, 234);
+        transform: scale(1.1);
+    }
+
+    .barra-bottom {
+        transform: .3;
     }
 
     a {
@@ -586,6 +604,11 @@
     .barra-bottom:hover {
         padding-bottom: 2px;
         border-bottom: 2px solid rgb(0, 255, 234);
+        transform: scale(1.1);
+    }
+
+    .barra-bottom {
+        transform: .3;
     }
 
     a {
