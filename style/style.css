@@ -31,7 +31,7 @@ header {
     z-index: 2;
 }
 
-span {
+.menu-resposivo {
     position: absolute;
     top: 8px;
     left: 10px;
@@ -105,6 +105,122 @@ section {
     width: 80px;
     animation: fluter 2s ease-in-out infinite alternate;
 }
+
+.page1-2 {
+    background-color: #0c192c;
+}
+
+.container-sobre-min1-2 {
+    position: relative;
+    width: 90%;
+    height: 85%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.container-animation-bolhas {
+    position: absolute;
+    width: 90vw;
+    height: 100vh;
+    background-color: transparent;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.anumation-bolhas {
+    display: block;
+}
+
+.bolhas {
+    position: absolute;
+    display: flex;
+}
+
+.bolhas .anumation-bolhas {
+    width: 30px;
+    height: 30px;
+    background-color: #77ff00;
+    margin: 20px 4px 0px 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #e5ff0044,
+    0 0 50px #77ff00,
+    0 0 100px #77ff00
+    ;
+    animation: animar calc(150s / var(--i)) linear infinite;
+}
+
+.bolhas .anumation-bolhas:nth-of-type(even) {
+    background-color: #2dc3ff;
+    box-shadow: 0 0 0 10px #2dc3ff44,
+    0 0 50px #2dc3ff,
+    0 0 100px #2dc3ff
+    ;
+}
+
+.card-interativo {
+    background-color: rgba(0, 0, 0, 0.224);
+    padding: 15px;
+}
+
+.nome-dev {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.cargo-do-dev {
+    text-align: center;
+    font-weight: 300;
+}
+
+.idade-do-dev {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.img-foto {
+    width: 250px;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(127, 255, 212, 0.493);
+     
+}
+
+.foto-do-sobre-min {
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.card-img {
+    display: inline-block;
+    width: 100px;
+    margin: auto;
+}
+
+.card-infomacao {
+    width: 250px;
+    margin: auto;
+    background-color: transparent;
+    background-color: rgba(245, 245, 220, 0.491);
+    margin-bottom: 0;
+    padding: 0px 0px;
+}
+
+.um-pouco-sobre-min {
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.continua-sobre-min {
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
 
 .page2 {
     background-color: #171717ee;
@@ -341,3 +457,11 @@ section {
     }
 }
 
+@keyframes animar {
+    0% {
+        transform: translatey(100vh) scale(0);
+    }
+    100% {
+        transform: translatey(-10vh) scale(1);
+    }
+}
