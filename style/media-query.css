@@ -146,12 +146,12 @@
     }
     
     .img-foto {
-        width: 250px;
-        height: 150px;
+        width: 50%;
+        height: 280px;
         margin: auto;
         text-align: center;
         background-color: rgba(127, 255, 212, 0.493);
-         
+        float: left;
     }
     
     .foto-do-sobre-min {
@@ -167,12 +167,14 @@
     }
     
     .card-infomacao {
-        width: 250px;
+        width: 50%;
+        height: 280px;
         margin: auto;
         background-color: transparent;
         background-color: rgba(245, 245, 220, 0.491);
         margin-bottom: 0;
         padding: 0px 0px;
+        float: right;
     }
     
     .um-pouco-sobre-min {
@@ -395,7 +397,7 @@
         width: 90%;
         height: 85%;
         margin: auto;
-        padding-top: 80px;
+        padding-top: 150px;
     }
     
     .container-animation-bolhas {
@@ -460,12 +462,12 @@
     }
     
     .img-foto {
-        width: 250px;
-        height: 150px;
+        width: 50%;
+        height: 280px;
         margin: auto;
         text-align: center;
         background-color: rgba(127, 255, 212, 0.493);
-         
+         float: left;
     }
     
     .foto-do-sobre-min {
@@ -481,12 +483,14 @@
     }
     
     .card-infomacao {
-        width: 250px;
+        width: 50%;
+        height: 280px;
         margin: auto;
         background-color: transparent;
         background-color: rgba(245, 245, 220, 0.491);
         margin-bottom: 0;
         padding: 0px 0px;
+        float: right;
     }
     
     .um-pouco-sobre-min {
@@ -693,7 +697,7 @@
         width: 90%;
         height: 85%;
         margin: auto;
-        padding-top: 80px;
+        padding-top: 150px;
     }
     
     .container-animation-bolhas {
@@ -758,12 +762,12 @@
     }
     
     .img-foto {
-        width: 250px;
-        height: 150px;
+        width: 50%;
+        height: 280px;
         margin: auto;
         text-align: center;
         background-color: rgba(127, 255, 212, 0.493);
-         
+        float: left;
     }
     
     .foto-do-sobre-min {
@@ -779,12 +783,14 @@
     }
     
     .card-infomacao {
-        width: 250px;
+        width: 50%;
+        height: 280px;
         margin: auto;
         background-color: transparent;
         background-color: rgba(245, 245, 220, 0.491);
         margin-bottom: 0;
         padding: 0px 0px;
+        float: right;
     }
     
     .um-pouco-sobre-min {
@@ -828,8 +834,8 @@
     }
 
     #container3 {
-        width: 800px;
-        height: 600px;
+        width: 100vw;
+        height: 100vh;
     }
 
     .cont-itens {
@@ -840,7 +846,7 @@
 
     .cont-img-capa {
         width: 197px;
-        height: 100px;
+        height: 80px;
     }
 
     .text-title-card {
@@ -997,7 +1003,7 @@
         width: 90%;
         height: 85%;
         margin: auto;
-        padding-top: 80px;
+        padding-top: 150px;
     }
     
     .container-animation-bolhas {
@@ -1062,11 +1068,12 @@
     }
     
     .img-foto {
-        width: 250px;
-        height: 150px;
+        width: 50%;
+        height: 280px;
         margin: auto;
         text-align: center;
         background-color: rgba(127, 255, 212, 0.493);
+        float: left;
          
     }
     
@@ -1083,12 +1090,14 @@
     }
     
     .card-infomacao {
-        width: 250px;
+        width: 50%;
+        height: 280px;
         margin: auto;
         background-color: transparent;
         background-color: rgba(245, 245, 220, 0.491);
         margin-bottom: 0;
         padding: 0px 0px;
+        float: right;
     }
     
     .um-pouco-sobre-min {
@@ -1132,8 +1141,8 @@
     }
 
     #container3 {
-        width: 800px;
-        height: 600px;
+        width: 100vw;
+        height: 100vh;
     }
 
     .cont-itens {
